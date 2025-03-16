@@ -38,3 +38,8 @@ def main():
 # It's a common practice in Python to organize code and control execution flow
 if __name__ == "__main__":
     main()
+
+# ---------------------------------------------------------------------------------------------------------------------#
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

@@ -36,10 +36,11 @@ Each solution file includes comments at the beginning that discuss the time and 
 Example:
 
 ```python
+# ... Solution code ...
+# --------------------
+
 # Time Complexity: O(n)
 # Space Complexity: O(n)
-
-# ... Solution code ...
 ```
 
 ## How to Use
