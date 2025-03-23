@@ -87,5 +87,18 @@ if __name__ == "__main__":
 
 # ---------------------------------------------------------------------------------------------------------------------#
 
-# Time Complexity: O(n)     - Iterate over the entire string twice 2*O(n), which simplifies to O(n)
-# Space Complexity: O(1)    - Not storing anything, just checking if the string is a palindrome
+"""
+LeetCode Problem: Valid Palindrome II (680)
+URL: https://leetcode.com/problems/valid-palindrome-ii/
+
+Approach:
+- Use a two-pointer technique to compare characters from both ends of the string.
+- On mismatch, check if skipping either the left or right character leads to a palindrome.
+- Use a helper function to verify palindromes in subranges without additional string slicing.
+
+Time Complexity: O(n)
+- The main loop and potential helper palindrome check both run in linear time.
+
+Space Complexity: O(1)
+- Only using integer indices and local variables with no extra data structures.
+"""
