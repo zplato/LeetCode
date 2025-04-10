@@ -31,6 +31,9 @@ class Solution {
         // Approach 2 - Using Reverse
         // k elements from back end of array come to the front and the rest of the elemtns from the front shift backwards
         // In this approach, we reverse all elements of the array. Then reversing the first k elements followed by reversing the rest n-k elements
+        if (A.length == 0)
+            return A;
+
         K %= A.length;
         reverse(A, 0, A.length-1); // Reverse the whole array
         reverse(A, 0, K-1);
