@@ -63,6 +63,6 @@ if __name__ == "__main__":
 
 
 '''
-Time Complexity - O(n) - Iterate over the array in a single pass 
-Space Complexity - O(1) - Modified in place, no new space utilized 
+Time Complexity: O(n) - Iterate over the array in a single pass 
+Space Complexity: O(1) - Modified in place, no new space utilized 
 '''
