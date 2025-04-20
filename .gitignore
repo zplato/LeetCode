@@ -6,8 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-# Ignore Random Code Files
-/Random
+# Ignore InterviewPrep Code Files
+/InterviewPrep
 
 # Distribution / packaging
 .Python
