@@ -7,6 +7,9 @@ class Solution:
 
     def intToRoman(self, num: int) -> str:
 
+        # Approach 1 -  Utilize a Greedy Subtraction through Hashmap, at every step of the way subtract the
+        #               largest possible value and repeat
+
         int_to_rom = {
             1: "I", 4: "IV", 5: "V",
             9: "IX", 10: "X", 40: "XL", 50: "L",
@@ -14,7 +17,6 @@ class Solution:
             900: "CM", 1000: "M"}
 
         ret = ""
-        str_num = str(num)
 
         # Loop through sorted keys in descending order
         for value in sorted(int_to_rom.keys(), reverse=True):
