@@ -39,7 +39,7 @@ class Solution:
             if not root:
                 return 0
 
-                # Recursive Calls for L-R DFS
+            # Recursive Calls for L-R DFS
             l = dfs(root.left)  # DFS on left first
             r = dfs(root.right)  # Then Go right
 
