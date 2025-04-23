@@ -48,6 +48,11 @@ class Solution:
 
         return max_len
 def main():
+    a = [1, 2, 3]
+    b = a
+    a.append(4)
+    print(b)
+
     solution = Solution()
 
     test_cases = [
