@@ -20,6 +20,18 @@ class Solution:
 
         return []  # Default return if no solution
 
+def main():
+    test = Solution()
+    result = test.twoSum([1,1,3,5], 8)
+
+    if not result:
+        print("FAIL")
+    else:
+        print("PASS")
+
+if __name__ == "__main__":
+    main()
+
 '''
 Time Complexity: O(n) - worst case scenario is to loop over the whole input list
 Space Complexity: O(n) - worst case is that we store each num in num_map 
