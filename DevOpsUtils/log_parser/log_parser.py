@@ -14,6 +14,7 @@ Constraints / Focus
 
 Bonus: Wrap logic in functions
 '''
+
 import os.path
 import sys
 
