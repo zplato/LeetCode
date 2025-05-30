@@ -1,0 +1,6 @@
+2025-05-28 12:34:56,789 [auth] INFO User login successful
+2025-05-28 12:35:01,004 [db] ERROR Connection timeout
+2025-05-28 12:35:02,110 [auth] WARN Token expiration soon
+2025-05-28 12:35:05,215 [web] ERROR 500 Internal Server Error
+2025-05-28 12:35:06,101 [db] ERROR Failed to commit transaction
+2025-05-28 12:35:08,789 [scheduler] INFO Task started
