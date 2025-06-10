@@ -70,6 +70,6 @@ if __name__ == '__main__':
 
 
 """
-Time Complexity  - O(n): Iterate through the input list of lenght n
+Time Complexity  - O(n): Iterate through the input list of length n
 Space Complexity - O(1): Using constant space  
 """
