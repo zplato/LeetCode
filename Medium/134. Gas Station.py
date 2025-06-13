@@ -23,7 +23,7 @@ class Solution:
         start_index = 0
 
         # greedy approach, find gas station index that provides the most gas
-        # we know a solution is possible, given sum(gas) > sum(cost) - we are garunteed a unique solution too
+        # we know a solution is possible, given sum(gas) > sum(cost) - we are guaranteed a unique solution too
         # As soon as we can't continue from teh current start, we move to the next station, resetting curr_tank.
         for i in range(len(gas)):
             curr_gas += gas[i] - cost[i]
