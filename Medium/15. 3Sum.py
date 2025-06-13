@@ -13,7 +13,7 @@ class Solution:
         """
 
         """
-        Approach - need to find x + y + z = 0, if we keep x in place, then iterate over the rest of the list where y + z = -x. -x becomes the target. 
+        Approach - need to find x + y + z = 0, if we keep x in place, then iterate over the rest of the list.
         If nothing is found, increment x+1 and repeat until we exhaust all x. If we did find one, then store it in the return list
         Sort the input array first O(n) operation, which allows for two pointer approach L and R for inner loop. 
         """
