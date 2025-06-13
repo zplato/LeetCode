@@ -7,7 +7,7 @@ class Solution:
         """
         What we know
             1. Return all Triplets - not just a single set
-            2. Solution set cannot contain duplicates, so 0 + 0 + 0 doesn't work, and neither does 3xi where n[i] = 0
+            2. Solution set cannot contain duplicates indices, i != j != k
             3. Input is not sorted
             4. Output order does not matter
         """
