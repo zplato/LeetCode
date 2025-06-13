@@ -46,6 +46,7 @@ class Solution:
                     L += 1
                     R -= 1
 
+                    # Does not make it triple nested, rather this is an optimization where we are bumping the inner loop variables forward if duplicates found
                     while L < R and nums[L] == curr_L:
                         L += 1
                     while L < R and nums[R] == curr_R:
