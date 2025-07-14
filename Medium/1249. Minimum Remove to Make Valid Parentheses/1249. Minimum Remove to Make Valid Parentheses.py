@@ -60,9 +60,9 @@ class Solution:
                     invalid_indices.add(i)
             i += 1
 
-            # At this point, the result may still contain invalid open parenthesis
+        # At this point, the result may still contain invalid open parenthesis
         # These would be the last parenthesis unmatched at the end of the string
-        # The The delta between length of open_stack
+        # The delta between length of open_stack
         # print(open_stack)
         # print(invalid_indices)
         invalid_indices.update(open_stack)
